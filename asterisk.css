@@ -1,0 +1,86 @@
+#vp_main_div {
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+}
+#vp_main_message {
+	width: 240px;
+	min-height: 80px;
+	display: none;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-weight:bold;
+	font-size: 14px;
+	background: rgba(198, 220, 255, 1);
+	color: #003a08;
+	box-shadow: 0px 0px 5px rgba(69, 137, 247, 1);
+	-moz-box-shadow: 0px 0px 5px rgba(69, 137, 247, 1);
+	-webkit-box-shadow: 0px 0px 5px rgba(69, 137, 247, 1);
+}
+#vp_panel_control {
+	position: absolute;
+	width: 50px;
+	height: 16px;
+	right: 3px;
+	top: 3px;
+}
+#vp_button_hide {
+	width: 16px;
+	height: 16px;
+	background: url('minus.png');
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+#vp_button_close {
+	width: 16px;
+	height: 16px;
+	background: url('close.png');
+	float: left;
+	cursor: pointer;
+}
+#vp_main_message #vp_name_message {
+	margin-bottom: 3px;
+	margin-top: 10px;
+
+}
+#vp_main_message #vp_address_message {
+	margin: 3px 0px;
+	
+}
+#vp_main_message #vp_open_card {
+	margin: 3px 0px;
+	text-decoration: none;
+	color: #146eff;
+}
+#vp_main_message #vp_open_card:hover {
+	text-decoration: underline;
+	color: #ea0505;
+}
+#vp_hide_panel {
+	width: 50px;
+	height: 50px;
+	background: center center url('old-handphone.png') no-repeat rgba(198, 220, 255, 1);
+	box-shadow: 0px 0px 5px rgba(69, 137, 247, 1);
+	-moz-box-shadow: 0px 0px 5px rgba(69, 137, 247, 1);
+	-webkit-box-shadow: 0px 0px 5px rgba(69, 137, 247, 1);
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#vp_main_message #vp_time_call {
+	color: #060708;
+    text-shadow: 0px 1px 1px rgba(19, 26, 236, 0.8);
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 210px;
+}
